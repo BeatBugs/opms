@@ -1,0 +1,44 @@
+/**
+* 控制 chrome 滚动条颜色
+*/
+::-webkit-scrollbar-track-piece{
+    background-color:#fff;/* 空出来的颜色 */
+    -webkit-border-radius:0;
+}
+/**
+* 宽度
+* 高度
+*/
+::-webkit-scrollbar{
+    width:12px; /* 设置滚动条宽度 */
+    height:0px;
+}
+::-webkit-scrollbar-thumb{
+    height:0px;
+    background-color:#c1c1c0;/* 滚动条颜色 */
+    -webkit-border-radius:4px;
+    /*outline:2px solid #9f82ff;!*滚动条外围颜色*!*/
+    outline-offset:-2px;
+    border: 2px solid #fff;
+}
+div{
+    scrollbar-face-color: #c1c1c0;
+    scrollbar-shadow-color: #D2E5F4;
+    scrollbar-highlight-color: #D2E5F4;
+    scrollbar-3dlight-color: #FFFFFF;
+    scrollbar-darkshadow-color: #FFFFFF;
+    scrollbar-track-color: #FFFFFF;
+    scrollbar-arrow-color: #D2E5F4;
+}
+.x-btn button
+{
+    font-size:15pt;
+    border:solid 1px #000;
+    font-weight:bold;
+    width:160px;
+    height:60px;
+}
+.x-btn-center
+{
+
+}
